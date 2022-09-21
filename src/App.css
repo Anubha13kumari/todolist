@@ -1,0 +1,49 @@
+.app__container {
+  background-color: #282c34;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  color: white;
+  align-items: center;
+  justify-content: center;
+}
+.todo__container {
+  border: 1px solid grey;
+  height: 60vh;
+  width: 30vw;
+}
+.todo__container h1 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.todo__input {
+  padding: 1rem;
+  width: 50%;
+  margin-left: 3rem;
+  border-radius: 2rem;
+}
+.todo__addbutton {
+  padding: 0.5rem;
+  border-radius: 2rem;
+  margin-left: 1rem;
+  width: 20%;
+}
+.todo__editbutton {
+  padding: 0.5rem;
+  border-radius: 2rem;
+  margin-left: 1rem;
+  width: 40%;
+}
+.todo__deletebutton {
+  padding: 0.5rem;
+  border-radius: 2rem;
+  margin-left: 1rem;
+  width: 40%;
+}
+.btn__container {
+  display: flex;
+  flex-direction: row;
+  float: right;
+  margin-right: 1rem;
+}
